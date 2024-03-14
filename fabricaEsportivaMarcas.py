@@ -1,19 +1,28 @@
 import fabricaEsportiva
 import camisaEsportiva
+from camisasEsportivasTimes import camisaVasco, camisaBrasil, camisaFluminense, camisaBotafogo, camisaFlamengo
+
 
 class Nike(fabricaEsportiva):
     def produtoDesportivo(self) -> camisaEsportiva:
-        return ...
+        return camisaBrasil()
+
+
 class Adidas(fabricaEsportiva):
     def produtoDesportivo(self) -> camisaEsportiva:
-        return ...
+        return camisaFlamengo()
+
+
 class Puma(fabricaEsportiva):
     def produtoDesportivo(self) -> camisaEsportiva:
-        return ...
+        return camisaBotafogo()
+
+
 class Umbro(fabricaEsportiva):
     def produtoDesportivo(self) -> camisaEsportiva:
-        return ...
+        return camisaFluminense()
+
+
 class Kappa(fabricaEsportiva):
     def produtoDesportivo(self) -> camisaEsportiva:
-        return ...
-
+        return camisaVasco()

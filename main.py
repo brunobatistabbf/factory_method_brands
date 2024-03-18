@@ -7,7 +7,7 @@ def Client(prefabrication: fabricaEsportiva) -> None:
 
 
 if __name__ == '__main__':
-    print("\nCATALOGO PRODUTOS DESPORTIVOS")
+    print("\nCATALOGO CAMISAS ESPORTIVAS")
     print("1 - Seleção Brasileira")
     print("2 - Flamengo")
     print("3 - Botafogo")

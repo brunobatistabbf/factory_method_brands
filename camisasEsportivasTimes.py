@@ -1,4 +1,4 @@
-import camisaEsportiva
+from camisaEsportiva import  camisaEsportiva
 
 class camisaBrasil(camisaEsportiva):
     def InfoProduto(self):

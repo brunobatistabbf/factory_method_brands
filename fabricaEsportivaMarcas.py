@@ -1,5 +1,5 @@
-import fabricaEsportiva
-import camisaEsportiva
+from fabricaEsportiva import  fabricaEsportiva
+from camisaEsportiva import camisaEsportiva
 from camisasEsportivasTimes import camisaVasco, camisaBrasil, camisaFluminense, camisaBotafogo, camisaFlamengo
 
 
